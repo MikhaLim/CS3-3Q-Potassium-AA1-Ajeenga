@@ -1,20 +1,19 @@
-const PI = 3.14;
-let radius = 6.378e6; 
-let G = 2*(I*radius);
-let SA = 4*I*(radius**2);
-let V = (4/3) * (I * r ** 3);
-
-
-
-document.write(I);
+const I = 3.14;
+document.write(I)
+document.write("The radius of the circle is:(I)");
+(
 document.write('<br><br>');
+let radius = 6.378e6; 
 document.write('<br><br>');
 document.write (radius);
 document.write('<br><br>');
+let C = 2*(I*radius);
 document.write('<br><br>');
 document.write(C)
+let A = 4*I*(radius**2);
 document.write('<br><br>');
 document.write(A);
 document.write('<br><br>');
+let V = (4/3) * (I * r ** 3);
 document.write('<br><br>');
 document.write(V);
