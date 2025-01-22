@@ -1,5 +1,5 @@
-const I = 3.14; 
-document.write("Value of π: " + I);
+const PI = 3.14; 
+document.write("Value of PI: " + I);
 document.write('<br><br>');
 
 let radius = 6.378e6; 
@@ -10,11 +10,11 @@ let C = 2 * I * radius;
 document.write("Circumference: " + C);
 document.write('<br><br>');
 
-let A = 4 * I * (radius ** 2);
-document.write("Surface Area: " + A);
+let SA = 4 * I * (radius ** 2);
+document.write("surface area: " + A);
 document.write('<br><br>');
 
 
-let V = (4 / 3) * I * (radius ** 3);
+let L = (4 / 3) * I * (radius ** 3);
 document.write("Volume: " + V);
 document.write('<br><br>');
