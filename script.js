@@ -1,20 +1,21 @@
-const PI = 3.14; 
-document.write("Value of PI: " + PI);
+const I = 3.14; 
+document.write("Value of π: " + I);
 document.write('<br><br>');
 
 let radius = 6.378e6; 
 document.write("Radius of the sphere: " + radius);
 document.write('<br><br>');
 
-let C = 2 * PI * radius;
+
+let C = 2 * I * radius;
 document.write("Circumference: " + C);
 document.write('<br><br>');
 
-let SA = 4 * PI * (radius ** 2);
-document.write("surface area: " + SA);
+let A = 4 * I * (radius ** 2);
+document.write("Surface Area: " + A);
 document.write('<br><br>');
 
 
-let L = (4 / 3) * PI * (radius ** 3);
-document.write("Volume: " + L);
+let V = (4 / 3) * I * (radius ** 3);
+document.write("Volume: " + V);
 document.write('<br><br>');
