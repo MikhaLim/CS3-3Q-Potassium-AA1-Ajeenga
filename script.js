@@ -1,9 +1,9 @@
 const I = 3.14; 
-document.write("The Value of PI is: " + I);
+document.write("Value of PI: " + I);
 document.write('<br><br>');
 
 let radius = 6.378e6; 
-document.write("The Radius is: " + radius);
+document.write("Radius: " + radius);
 document.write('<br><br>');
 
 
