@@ -1,6 +1,5 @@
 const I = 3.14; 
-document.write("Value of π: " + I);
-document.write('<br><br>')
+
 let radius = 6.378e6; 
 document.write("Radius: " + radius);
 document.write('<br><br>');
