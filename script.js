@@ -1,4 +1,4 @@
-function calculateGrowth() {
+function growMonsters() {
     let startPopulation = parseFloat(prompt("Enter a value for initial population:"));
     let growthRate = parseFloat(prompt("Enter a value for rate of growth:"));
     let duration = parseFloat(prompt("Enter a value for time:"));
